@@ -1,6 +1,6 @@
 Name:           pyxdg
-Version:        0.26
-Release:        3
+Version:        0.28
+Release:        1
 Summary:        Python library to access freedesktop APIs
 License:        LGPLv2
 URL:            http://freedesktop.org/Software/pyxdg
@@ -45,6 +45,9 @@ nosetests-%{python3_version} || :
 %{python3_sitelib}/pyxdg-*.egg-info
 
 %changelog
+* Wed Aug 17 2022 YukariChiba <i@0x7f.cc> - 0.28-1
+- Upgrade version to 0.28 to solve python version dependency
+
 * Wed Oct 21 2020 zhangpeng <zhangpeng228@huawei.com> - 0.26-3
 - disable python2
 
